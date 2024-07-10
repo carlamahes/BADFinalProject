@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="1024.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.training.Participants">
+   <children>
+      <ImageView fitHeight="1024.0" fitWidth="1440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../cybersecurity/participants.png" />
+         </image></ImageView>
+      <Button layoutX="43.0" layoutY="112.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="174.0" style="-fx-background-color: ffffff;" text="Back" onAction="#switchTocourse1">
+         <font>
+            <Font name="Avenir Black" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

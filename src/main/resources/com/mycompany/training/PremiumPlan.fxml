@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="1024.0" prefWidth="1440.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.training.PremiumPlanController">
+    <children>
+      <AnchorPane prefHeight="1024.0" prefWidth="1440.0">
+         <children>
+            <ImageView fitHeight="1024.0" fitWidth="1440.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../cybersecurity/enrollCEH.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="209.0" layoutY="194.0" prefHeight="668.0" prefWidth="456.0" style="-fx-background-color: #1E3F66;">
+               <children>
+                  <Text fill="WHITE" layoutX="151.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monthly Plan">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="137.0" layoutY="563.0" mnemonicParsing="false" onAction="#showPaymentPopup" prefHeight="48.0" prefWidth="174.0" style="-fx-background-color: EFC602;" text="JOIN">
+                     <font>
+                        <Font name="Avenir Black" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Text fill="WHITE" layoutX="161.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Premium Plan">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="754.0" layoutY="188.0" prefHeight="739.0" prefWidth="521.0" style="-fx-background-color: #1E3F66;" />
+            <Button layoutX="288.0" layoutY="154.0" mnemonicParsing="false" onAction="#switchToCertifiedEthic" prefHeight="30.0" prefWidth="60.0" text="Back">
+               <font>
+                  <Font name="Avenir Roman" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

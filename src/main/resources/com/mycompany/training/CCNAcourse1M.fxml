@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="1024.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.training.Course1MController">
+   <children>
+      <ImageView fitHeight="1024.0" fitWidth="1440.0" layoutX="-3.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../cybersecurity/materialCISSP.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="29.0" layoutY="39.0" mnemonicParsing="false" onAction="#switchTocybersecurity" prefHeight="30.0" prefWidth="60.0" text="Back">
+         <font>
+            <Font name="Avenir Roman" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="118.0" layoutY="292.0" mnemonicParsing="false" onAction="#switchToMaterial1" prefHeight="116.98" prefWidth="698.0" style="-fx-background-color: ffffff;" text="01 | Network Fundamentals">
+         <font>
+            <Font name="Avenir Black" size="24.0" />
+         </font></Button>
+      <Button layoutX="118.0" layoutY="439.0" mnemonicParsing="false" onAction="#switchToMaterial2" prefHeight="116.98" prefWidth="698.0" style="-fx-background-color: FFFFFF;" text="02 | Network Access">
+         <font>
+            <Font name="Avenir Black" size="24.0" />
+         </font></Button>
+      <Button layoutX="118.0" layoutY="587.0" mnemonicParsing="false" onAction="#switchToMaterial3" prefHeight="116.98" prefWidth="698.0" style="-fx-background-color: FFFFFF;" text="03 | IP Connectivity">
+         <font>
+            <Font name="Avenir Black" size="24.0" />
+         </font></Button>
+      <Button layoutX="118.0" layoutY="734.0" mnemonicParsing="false" onAction="#switchToMaterial3" prefHeight="116.98" prefWidth="698.0" style="-fx-background-color: FFFFFF;" text="04 | IP Services">
+         <font>
+            <Font name="Avenir Black" size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

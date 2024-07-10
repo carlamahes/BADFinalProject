@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="1024.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.training.HomepageController">
+   <children>
+      <ImageView fitHeight="1024.0" fitWidth="1440.0" layoutX="4.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../category/bg%20category.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="844.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CATEGORY" wrappingWidth="402.00616455078125">
+         <font>
+            <Font name="Avenir Black" size="72.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="829.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your category" x="100.0" y="100.0">
+         <font>
+            <Font name="Avenir Roman" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="779.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToCybersecurity" prefHeight="94.0" prefWidth="536.0" style="-fx-background-color: FFFFFF;" text="01 | Cybersecurity">
+         <font>
+            <Font name="Avenir Black" size="24.0" />
+         </font></Button>
+      <Button layoutX="781.0" layoutY="678.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="536.0" style="-fx-background-color: FFFFFF;" text="03 | Cloud Computing">
+         <font>
+            <Font name="Avenir Black" size="24.0" />
+         </font></Button>
+      <Button layoutX="780.0" layoutY="796.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="536.0" style="-fx-background-color: FFFFFF;" text="04 | Software Development">
+         <font>
+            <Font name="Avenir Black" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="780.0" layoutY="563.0" mnemonicParsing="false" onAction="#switchToNetworking" prefHeight="94.0" prefWidth="536.0" style="-fx-background-color: FFFFFF;" text="02 | Networking">
+         <font>
+            <Font name="Avenir Black" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
